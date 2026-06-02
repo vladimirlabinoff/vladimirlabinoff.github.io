@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алексей Петрович | Невролог-Вертебролог</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .hero-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+        }
+        button {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 2rem;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+            .hero-section p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Первый экран -->
+    <header class="hero-section">
+        <h1>Лечение спины и шеи без операций!</h1>
+        <p>Забудьте о болях навсегда благодаря авторской методике доктора Петрова.</p>
+        <button onclick="window.location.href='#contact'">Записаться на приём</button>
+    </header>
+
+    <!-- Блок О враче -->
+    <section id="about">
+        <img src="doctor_photo.jpg" alt="Доктор Алексей Петрович">
+        <h2>Петров Алексей Николаевич</h2>
+        <p><strong>Врач-невролог, вертебролог</strong></p>
+        <p>Более 10 лет помогаю людям избавиться от болей в спине и шее. Моя миссия — вернуть пациентам радость движения и качество жизни.</p>
+    </section>
+
+    <!-- Блок Экспертиза и Специализация -->
+    <section id="services">
+        <h2>Моя экспертиза:</h2>
+        <ul>
+            <li>Лечение межпозвоночных грыж без операции</li>
+            <li>Избавление от хронической боли в спине и шее</li>
+            <li>Восстановление после травм позвоночника</li>
+        </ul>
+    </section>
+
+    <!-- Блок Почему стоит обратиться именно ко мне -->
+    <section id="why-me">
+        <h2>Почему выбирают меня?</h2>
+        <ul>
+            <li>✅ Индивидуальный подход к каждому пациенту</li>
+            <li>✅ Более 10 лет опыта успешной практики</li>
+            <li>✅ Современные методики диагностики и лечения</li>
+            <li>✅ Полная безопасность и конфиденциальность</li>
+            <li>✅ Положительные отзывы сотен довольных пациентов</li>
+        </ul>
+    </section>
+
+    <!-- Блок Этапы работы -->
+    <section id="process">
+        <h2>Как проходит работа:</h2>
+        <ol>
+            <li>Первичная консультация и осмотр</li>
+            <li>Комплексная диагностика проблемы</li>
+            <li>Разработка индивидуального плана лечения</li>
+            <li>Контроль эффективности терапии</li>
+        </ol>
+    </section>
+
+    <!-- Блок Отзывы -->
+    <section id="reviews">
+        <h2>Отзываются пациенты:</h2>
+        <blockquote>"Спасибо доктору Петрову за профессионализм и внимательное отношение! Боль ушла буквально после первого сеанса."</blockquote>
+        <blockquote>"Никогда не думала, что смогу снова свободно двигаться. Теперь рекомендую Алексея Николаевича всем знакомым!"</blockquote>
+    </section>
+
+    <!-- Блок FAQ -->
+    <section id="faq">
+        <h2>Вопросы и ответы:</h2>
+        <details open>
+            <summary>Как долго длится лечение?</summary>
+            <p>Продолжительность курса зависит от сложности случая, обычно занимает от 3 недель до месяца.</p>
+        </details>
+        <details>
+            <summary>Есть ли противопоказания?</summary>
+            <p>Да, существуют некоторые ограничения, о которых мы поговорим на консультации.</p>
+        </details>
+        <details>
+            <summary>Нужно ли брать больничный лист?</summary>
+            <p>Нет, большинство процедур проводятся амбулаторно.</p>
+        </details>
+    </section>
+
+    <!-- Финальный блок CTA -->
+    <section id="contact">
+        <h2>Готовы забыть о боли раз и навсегда?</h2>
+        <form action="#" method="post">
+            <input type="text" placeholder="Ваше имя..." required>
+            <input type="tel" placeholder="Ваш номер телефона..." required>
+            <button type="submit">Записаться прямо сейчас</button>
+        </form>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <address>
+            Медицинский центр «НейроКлиник»<br>
+            г. Санкт-Петербург, ул. Ленина, д. 1<br>
+            Тел.: +7 (812) 555-33-22<br>
+            E-mail: info@neuroclinic.ru
+        </address>
+        <div>
+            <a href="https://vk.com/alexpetrov_neuro"><img src="vk_logo.png" alt="VK"></a>
+        </div>
+        <small>&copy; 2023 Все права защищены.</small>
+    </footer>
+</body>
+</html>
